@@ -1,0 +1,50 @@
+.Container{
+  display: flex;
+}
+.Container > div {
+  /* border: 1px solid #ccc; */
+  padding: 20px;
+}
+.head{
+  padding: 20px;
+}
+.header{
+  background-color: rgb(0, 5, 49);
+  color: white;
+  flex: 1;
+  padding: 20px;
+  justify-content:center;
+}
+.Column1, .Column2, .Column3 {
+  margin-top: 30px;
+  flex: 1;
+  color: White;
+}
+.Column1 {
+  background-color: rgba(0, 27, 59, 0.7);
+}
+.Column2 {
+  background-color: rgba(0, 119, 89, 0.712);
+}
+.Column3 {
+  background-color: rgb(207, 66, 66);
+}
+.size{
+  padding: 5px;
+  border-radius: 5px;
+}
+.button{
+  margin-top: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: rgb(194, 194, 255);
+}
+.button a{
+  color: black;
+  text-decoration: none;
+}
+@media (max-width: 768px){
+  .Container{
+    flex-direction: column;
+  }
+}
